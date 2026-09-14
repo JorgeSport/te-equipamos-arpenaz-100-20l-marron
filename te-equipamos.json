@@ -1,13 +1,13 @@
 {
   "brand": "Te Equipamos",
+  "schema_version": 2,
   "items": [
     {
       "active": true,
       "type": "sale",
-      "sections": [
-        "Ventas",
-        "Novedades"
-      ],
+      "sections": ["Ventas", "Novedades"],
+      "activities": ["senderismo", "travel"],
+      "product_type": "mochila",
       "title": "20 litros, cinco bolsillos y espacio para portátil: cuando una mochila quiere servir para dos mundos",
       "summary": "Quechua Arpenaz 100 de 20 L para combinar ciudad y senderismo ocasional.",
       "details": "Landing de venta con colores, galería, ficha técnica y opciones comerciales.",
@@ -16,12 +16,7 @@
       "score": 87,
       "featured": false,
       "direct": true,
-      "tags": [
-        "mochilas",
-        "ciudad",
-        "senderismo",
-        "quechua"
-      ],
+      "tags": ["mochilas", "ciudad", "senderismo", "quechua"],
       "url": "https://jorgesport.github.io/te-equipamos-arpenaz-100-20l-marron/"
     }
   ]
